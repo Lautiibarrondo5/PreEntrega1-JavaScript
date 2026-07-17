@@ -4,13 +4,14 @@ const ciudad = prompt("¿De qué ciudad sos?");
 
 let edadEnCinco = edad + 5;
 
-let mensaje = "Hola" +
-            nombre +
-            ".vivís en" +
-            ciudad +
-            "y dentro de 5 años vas a tener" +
-            edadEnCinco +
-            "años.";
+let mensaje =
+    "Hola " +
+    nombre +
+    ". Vivís en " +
+    ciudad +
+    " y dentro de 5 años vas a tener " +
+    edadEnCinco +
+    " años.";
 
 console.log(mensaje);
 alert(mensaje);
